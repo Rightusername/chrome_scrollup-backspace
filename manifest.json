@@ -1,0 +1,26 @@
+{
+    "name": "Scroll_up",
+    "description": "Scroll_up",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "\u003Call_urls>"
+            ]
+        }
+    ],
+
+    "icons": {
+
+    },
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "\u003Call_urls>"
+    ]
+}
